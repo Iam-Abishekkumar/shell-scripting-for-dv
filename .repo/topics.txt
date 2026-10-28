@@ -1,0 +1,17 @@
+01_basics/03_script_basics|03|Script basics: shebang and comments|4
+01_basics/04_first_script|04|Running a script: chmod u+x and ./|2
+01_basics/05_variables|05|Variables|3
+01_basics/06_special_variables|06|Special variables: $1 $# $@ $* $? $$|6
+02_arrays/07_arrays|07|Arrays|16
+03_operators/08_arithmetic|08|Arithmetic|3
+03_operators/09_relational|09|Relational operators|1
+03_operators/10_logical|10|Logical operators|1
+03_operators/11_bitwise|11|Bitwise operators|1
+03_operators/12_file_tests|12|File test operators|3
+04_input_and_decisions/13_read_input|13|User input: read|3
+04_input_and_decisions/14_if|14|Decisions: if, elif, nested if|4
+04_input_and_decisions/15_case|15|Decisions: case|2
+05_loops_and_functions/16_loops|16|Loops: for, while, until|1
+05_loops_and_functions/17_break_continue|17|Loop control: break and continue|1
+05_loops_and_functions/18_functions|18|Functions|1
+05_loops_and_functions/19_external_scripts|19|Running other scripts: source and ./|1

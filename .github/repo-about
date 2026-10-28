@@ -1,0 +1,2 @@
+Bash scripts for design verification: arguments, arrays, decisions, loops, functions and log checks, each one re-run in CI against its saved output
+design-verification bash shell-scripting regression-testing linux

@@ -1,0 +1,52 @@
+# Shell Scripting for Design Verification
+
+[![check](https://github.com/{{OWNER}}/{{REPO}}/actions/workflows/check.yml/badge.svg)](https://github.com/{{OWNER}}/{{REPO}}/actions/workflows/check.yml)
+
+Bash scripts I wrote while learning shell scripting for design verification: test names and seeds, argument handling,
+test lists, PASS/FAIL decisions, log checks, regression loops and a small manager/worker flow.
+**Every script is run on each push and compared with its saved real output**, the way a regression checks a design.
+
+**Published: {{PUBLISHED}} of {{TOTAL}} exercises**
+
+## Topics
+
+| # | Topic | Exercises | Status |
+|---|---|---|---|
+{{TABLE}}
+
+## How each script is checked
+
+```text
+if1.sh header: # Run: ./if1.sh <<< 2
+        │
+        ▼
+check.sh runs it in a temporary folder ──► compares with if1.out ──► PASS / FAIL
+```
+
+- `# Run:` lines say how to run the script (arguments, typed input with `<<<`); `# Setup:` creates input files first.
+- `<name>.out` is the real output, saved next to the script.
+- GitHub Actions runs `./check.sh` on every push (badge above).
+
+```bash
+git clone https://github.com/{{OWNER}}/{{REPO}}.git
+cd {{REPO}}
+./check.sh
+```
+
+## About these scripts
+
+These are my exercises from a shell scripting course, written while learning. Before publishing, I reviewed them and cleaned
+small things (output text, quoting, counters that must start at 0, checking empty input); the mistakes I made along the way are in my notes.
+
+## Layout
+
+```text
+NN_section/NN_topic/
+├── README.md        what the topic is, the key rules, the DV use
+├── name.sh          my script (its header says how it is run)
+└── name.out         its real output
+check.sh             runs every script and compares with its .out
+push                 publishes my next exercises: ./push 2
+```
+
+Requirements: bash 4 or newer, GNU coreutils.
