@@ -13,4 +13,5 @@ A script is a text file of commands. The first line, the **shebang** `#!/bin/bas
 | Exercise | What it does | Output |
 |---|---|---|
 | [`first.sh`](first.sh) | the shebang line tells Linux to run this file with bash | [first.out](first.out) |
+| [`bad.sh`](bad.sh) | once started with #!/bin/BASH (capitals) and failed with 'bad interpreter'; fixed to lowercase | [bad.out](bad.out) |
 <!-- /exercises -->
