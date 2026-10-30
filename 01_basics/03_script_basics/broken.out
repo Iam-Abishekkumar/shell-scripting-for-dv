@@ -1,0 +1,3 @@
+$ ./broken.sh
+One
+./broken.sh: line 8: warning: here-document at line 5 delimited by end-of-file (wanted `end')

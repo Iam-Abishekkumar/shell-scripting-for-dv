@@ -6,13 +6,13 @@ Bash scripts I wrote while learning shell scripting for design verification: tes
 test lists, PASS/FAIL decisions, log checks, regression loops and a small manager/worker flow.
 **Every script is run on each push and compared with its saved real output**, the way a regression checks a design.
 
-**Published: 3 of 53 exercises**
+**Published: 4 of 53 exercises**
 
 ## Topics
 
 | # | Topic | Exercises | Status |
 |---|---|---|---|
-| 03 | [Script basics: shebang and comments](01_basics/03_script_basics/) | 3 / 4 | 🟡 |
+| 03 | [Script basics: shebang and comments](01_basics/03_script_basics/) | 4 / 4 | ✅ |
 | 04 | Running a script: chmod u+x and ./ | 0 / 2 | ⬜ |
 | 05 | Variables | 0 / 3 | ⬜ |
 | 06 | Special variables: $1 $# $@ $* $? $$ | 0 / 6 | ⬜ |
