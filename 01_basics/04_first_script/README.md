@@ -14,4 +14,5 @@
 | Exercise | What it does | Output |
 |---|---|---|
 | [`hello.sh`](hello.sh) | my first script | [hello.out](hello.out) |
+| [`greet.sh`](greet.sh) | a second script, run the same way with ./ | [greet.out](greet.out) |
 <!-- /exercises -->
