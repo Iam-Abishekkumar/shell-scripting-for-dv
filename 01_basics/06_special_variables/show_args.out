@@ -1,0 +1,10 @@
+$ ./show_args.sh alu_test 42 vcs
+Test: alu_test
+Seed: 42
+Simulator: vcs
+Total: 3
+$ ./show_args.sh alu_test
+Test: alu_test
+Seed: 
+Simulator: 
+Total: 1
