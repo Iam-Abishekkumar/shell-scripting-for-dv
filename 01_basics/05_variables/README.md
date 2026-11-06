@@ -13,4 +13,5 @@
 |---|---|---|
 | [`var1.sh`](var1.sh) | the word city versus the value of $city | [var1.out](var1.out) |
 | [`dv_var.sh`](dv_var.sh) | build a log file name from the test name and the seed | [dv_var.out](dv_var.out) |
+| [`dv_run.sh`](dv_run.sh) | test, seed and simulator in variables, printed as one summary line | [dv_run.out](dv_run.out) |
 <!-- /exercises -->

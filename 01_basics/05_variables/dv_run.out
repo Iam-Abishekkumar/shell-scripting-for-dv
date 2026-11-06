@@ -1,0 +1,2 @@
+$ ./dv_run.sh
+Running fifo_test on vcs with seed 777, log: fifo_test_777.log
