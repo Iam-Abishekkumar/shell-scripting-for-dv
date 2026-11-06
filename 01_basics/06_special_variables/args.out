@@ -1,0 +1,5 @@
+$ ./args.sh alu_test 5
+Script name: ./args.sh
+Test name: alu_test
+Seed: 5
+Number of arguments: 2
