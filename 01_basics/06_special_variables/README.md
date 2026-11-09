@@ -21,4 +21,5 @@
 |---|---|---|
 | [`show_args.sh`](show_args.sh) | print the first three arguments and how many were given | [show_args.out](show_args.out) |
 | [`args.sh`](args.sh) | print the script name, two arguments and the argument count | [args.out](args.out) |
+| [`pass.sh`](pass.sh) | pass all arguments on: "$@" keeps them separate, "$*" glues them into one | [pass.out](pass.out) |
 <!-- /exercises -->

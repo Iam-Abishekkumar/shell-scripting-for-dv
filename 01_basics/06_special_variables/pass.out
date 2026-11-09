@@ -1,0 +1,11 @@
+$ ./pass.sh alu_test 5 extra
+--- using "$@" ---
+Script name: ./args.sh
+Test name: alu_test
+Seed: 5
+Number of arguments: 3
+--- using "$*" ---
+Script name: ./args.sh
+Test name: alu_test 5 extra
+Seed: 
+Number of arguments: 1
