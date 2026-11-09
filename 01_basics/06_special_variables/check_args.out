@@ -1,0 +1,5 @@
+$ ./check_args.sh fifo_test
+Test: fifo_test
+Args received: 1
+ls: cannot access '/no_such_folder': No such file or directory
+ls status: 2
