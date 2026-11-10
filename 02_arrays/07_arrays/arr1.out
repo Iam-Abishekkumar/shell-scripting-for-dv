@@ -1,0 +1,4 @@
+$ ./arr1.sh
+uart_test
+alu_test
+fifo_test
