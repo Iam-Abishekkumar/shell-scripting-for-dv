@@ -18,4 +18,5 @@
 | Exercise | What it does | Output |
 |---|---|---|
 | [`arr1.sh`](arr1.sh) | read elements by index (the first index is 0) | [arr1.out](arr1.out) |
+| [`arr2.sh`](arr2.sh) | an index past the end prints an empty line, with no error | [arr2.out](arr2.out) |
 <!-- /exercises -->

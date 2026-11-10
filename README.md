@@ -6,7 +6,7 @@ Bash scripts I wrote while learning shell scripting for design verification: tes
 test lists, PASS/FAIL decisions, log checks, regression loops and a small manager/worker flow.
 **Every script is run on each push and compared with its saved real output**, the way a regression checks a design.
 
-**Published: 16 of 53 exercises**
+**Published: 17 of 53 exercises**
 
 ## Topics
 
@@ -16,7 +16,7 @@ test lists, PASS/FAIL decisions, log checks, regression loops and a small manage
 | 04 | [Running a script: chmod u+x and ./](01_basics/04_first_script/) | 2 / 2 | ✅ |
 | 05 | [Variables](01_basics/05_variables/) | 3 / 3 | ✅ |
 | 06 | [Special variables: $1 $# $@ $* $? $$](01_basics/06_special_variables/) | 6 / 6 | ✅ |
-| 07 | [Arrays](02_arrays/07_arrays/) | 1 / 16 | 🟡 |
+| 07 | [Arrays](02_arrays/07_arrays/) | 2 / 16 | 🟡 |
 | 08 | Arithmetic | 0 / 3 | ⬜ |
 | 09 | Relational operators | 0 / 1 | ⬜ |
 | 10 | Logical operators | 0 / 1 | ⬜ |
