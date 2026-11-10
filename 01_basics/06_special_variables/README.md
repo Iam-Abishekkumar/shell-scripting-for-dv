@@ -24,4 +24,5 @@
 | [`pass.sh`](pass.sh) | pass all arguments on: "$@" keeps them separate, "$*" glues them into one | [pass.out](pass.out) |
 | [`check_args.sh`](check_args.sh) | save the exit status of a failing command before it is overwritten | [check_args.out](check_args.out) |
 | [`tmp_log.sh`](tmp_log.sh) | a unique temporary log name from the process ID $$ | [tmp_log.out](tmp_log.out) |
+| [`run_test.sh`](run_test.sh) | take the test name and seed as arguments and build the log name | [run_test.out](run_test.out) |
 <!-- /exercises -->

@@ -1,0 +1,2 @@
+$ ./run_test.sh uart_test 7
+Running uart_test with seed 7, log: uart_test_7.log
