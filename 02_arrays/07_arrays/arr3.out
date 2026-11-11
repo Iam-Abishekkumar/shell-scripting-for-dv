@@ -1,0 +1,3 @@
+$ ./arr3.sh
+All tests: uart_test alu_test fifo_test dma_test
+Count: 4
